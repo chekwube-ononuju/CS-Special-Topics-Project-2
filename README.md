@@ -35,8 +35,8 @@ ai_human_detection_project/
 
 1. Clone this repository:
    ```zsh
-   git clone <repo_url>
-   cd ai_human_detection_project
+   git clone https://github.com/chekwube-ononuju/CS-Special-Topics-Project-2.git
+   cd CS-Special-Topics-Project-2
    ```
 2. Create and activate a virtual environment:
    ```zsh
@@ -63,6 +63,8 @@ ai_human_detection_project/
    - Place AI-generated texts in `data/training_data/ai/` as `.txt` files
    - Place human-written texts in `data/training_data/human/` as `.txt` files
    - Ensure you have at least one `.txt` per folder; otherwise training will fail with "empty vocabulary".
+   
+   **Note**: The original `AI_Human.csv` dataset (1GB+) is not included in this repository due to GitHub's file size limits. You'll need to obtain your own dataset or use the existing `.txt` files in the training folders.
 
 6. Train models (run this from the project root):
    ```zsh
