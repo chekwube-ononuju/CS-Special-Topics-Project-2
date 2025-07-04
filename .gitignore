@@ -41,5 +41,8 @@ Thumbs.db
 # data/training_data/
 # data/test_data/
 
+# Large data files that exceed GitHub limits
+data/raw/AI_Human.csv
+
 # VS Code workspace files
 *.code-workspace
