@@ -1,5 +1,7 @@
 # AI vs Human Text Detection
 
+**A Machine Learning Project for Computer Science Special Topics**
+
 This project is a Streamlit web application that analyzes text documents (PDF, Word, or plain text) and predicts whether the text was written by an AI or a human. The system provides:
 
 - Upload or paste text input
@@ -7,6 +9,25 @@ This project is a Streamlit web application that analyzes text documents (PDF, W
 - Instant predictions with confidence scores
 - Text statistics and visualization
 - Downloadable CSV reports
+
+## 🎓 Academic Project Information
+
+- **Course**: CS Special Topics Project 2
+- **Institution**: Texas Tech University
+- **Semester**: Summer 2025
+- **Author**: Chekwube Ononuju
+
+## 🚀 Live Demo
+
+The application can be run locally using Streamlit. See [Setup & Installation](#setup--installation) below.
+
+## 📊 Model Performance
+
+This project implements and compares 6 different machine learning models:
+- **Classical ML**: SVM, Decision Tree, AdaBoost
+- **Deep Learning**: CNN, LSTM, RNN (PyTorch)
+
+All models are trained on a balanced dataset of 500 text samples (250 AI-generated, 250 human-written).
 
 ## Project Structure
 
@@ -68,9 +89,7 @@ ai_human_detection_project/
 
 6. Train models (run this from the project root):
    ```zsh
-   # ensure you're in the ai_human_detection_project folder
-   cd /Users/chekzononuju/Documents/CS\ Special\ Topics\ Project\ 2/ai_human_detection_project
-   source ../venv/bin/activate    # if venv is one level up
+   # From the project directory
    python train_models.py
    ```
 
@@ -114,6 +133,40 @@ The system includes two categories of models:
 - **RNN (Recurrent Neural Network)**: Basic recurrent architecture for sequence processing
 
 All models are trained on the same dataset and can be used individually or in combination for ensemble predictions.
+
+## 🎯 Key Features
+
+- **Multi-Model Architecture**: Implements both classical ML and deep learning approaches
+- **Interactive Web Interface**: User-friendly Streamlit application
+- **Document Support**: Handles PDF, DOCX, and plain text files
+- **Real-time Analysis**: Instant predictions with confidence scores
+- **Comprehensive Training**: Complete pipeline from data preprocessing to model deployment
+- **Reproducible Results**: All models can be retrained with the provided script
+
+## 🔬 Technical Implementation
+
+### Machine Learning Models
+- **SVM**: Linear kernel with TF-IDF vectorization
+- **Decision Tree**: Rule-based classification with interpretability
+- **AdaBoost**: Ensemble learning with adaptive boosting
+- **CNN**: Convolutional layers for text pattern recognition
+- **LSTM**: Long Short-Term Memory for sequence dependencies
+- **RNN**: Basic recurrent neural network architecture
+
+### Technologies Used
+- **Frontend**: Streamlit
+- **ML Framework**: Scikit-learn, PyTorch
+- **Text Processing**: NLTK, TF-IDF
+- **Data Handling**: Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn, Plotly
+
+## 📈 Project Outcomes
+
+This project demonstrates:
+1. **Comparative Analysis**: Performance evaluation across multiple model types
+2. **End-to-End Pipeline**: From data preprocessing to web deployment
+3. **Practical Application**: Real-world text classification problem
+4. **Technical Proficiency**: Implementation of both classical and modern ML techniques
 
 ## Troubleshooting
 
