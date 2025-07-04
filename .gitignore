@@ -1,0 +1,45 @@
+# ignore serialized model files
+models/*.h5
+models/*.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+
+# Logs
+*.log
+
+# Data files (optional - uncomment if you don't want to upload training data)
+# data/training_data/
+# data/test_data/
+
+# VS Code workspace files
+*.code-workspace
